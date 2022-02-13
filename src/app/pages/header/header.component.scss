@@ -1,0 +1,19 @@
+.header-container{
+    background-color: tomato;
+    padding: 20px 0px 20px 10px;
+}
+
+
+.header-component{
+    color: white;
+    text-decoration:none;
+}
+
+.header-component:not(:first-child){
+    margin-left: 20px;
+}
+.header-component:last-child{
+    float: right;
+    margin-right: 20px;
+    visibility: hidden;
+}
