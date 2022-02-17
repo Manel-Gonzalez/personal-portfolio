@@ -1,0 +1,29 @@
+.aboutMe_content{
+    display: flex;
+    gap: 20px;
+    text-align: center; 
+}
+.aboutMeContainer{
+    padding: 20px;
+}
+
+.aboutMeImg{
+    order: 1;
+}
+
+.aboutMetext{
+    order: 2;
+}
+
+@media all and (max-width: 600px) {
+    /* We tell both sidebars to share a row */
+    .aboutMe_content { flex-wrap: wrap ;}
+    .aboutMeImg {
+        margin: auto;
+        width: 300px;
+    }
+    .tittle{
+        text-align: center;
+    }
+    
+  }
